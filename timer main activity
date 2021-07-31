@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 MediaPlayer mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.chickensound);
                 mediaPlayer.start();
                 imageView.setImageResource(R.drawable.chicken);
-//                button.setText("start");
+                button.setText("start");
                 seekBar.setEnabled(true);
                 seekBar.setAlpha(1);
             }
